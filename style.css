@@ -3,16 +3,27 @@ body{
 }
 header{
     display: flex;
+    height: 110px;
+    max-width: auto;
+    background-color: grey;
+    padding: 8px;
+    justify-content: space-around;
 }
-#reactlogo{
-    width: 75px;
-    height: 75px;
-    min-height: 50px;
-    max-width: 50px;
+.headerlogo{
+    display: flex;
+    flex-direction: row;
 }
-ul{
+.links{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+a{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    text-decoration: none;
+    color: white
+}
+li {
     list-style-type: none;
+    text-decoration: none;
 }
