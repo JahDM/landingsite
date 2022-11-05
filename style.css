@@ -1,11 +1,12 @@
 body{
     margin: 0;
+    
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: rgb(126, 62, 62);
     height: auto;
     justify-content: space-around;
     padding: 8px;
@@ -15,7 +16,7 @@ body{
     flex-shrink: 0;
 }
 .item{
-    max-width: 150px;
+    max-width: auto;
     max-height: 50px; 
 }
 .links{
@@ -26,11 +27,14 @@ body{
 .list{
     display: flex;
     gap: 12px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 a{
     list-style-type: none;
     text-decoration: none;
     color: white
+    
 }
    a:link {
     color: red;
@@ -55,4 +59,17 @@ li {
     list-style-type: none;
     text-decoration: none;
 }
-
+.section{
+    padding-left: 250px;
+    padding-right: 250px;
+    height: 350px;
+    background-color: chocolate;
+}
+.container1{
+    display: flex;
+    padding: 16px;
+}
+.biglogo{
+    height: 150px;
+    width: auto;
+}
