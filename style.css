@@ -7,7 +7,6 @@ header{
     max-width: auto;
     background-color: grey;
     padding: 8px;
-    justify-content: space-around;
 }
 .headerlogo{
     display: flex;
