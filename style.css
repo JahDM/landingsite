@@ -15,7 +15,7 @@ body{
     flex-shrink: 0;
 }
 .item{
-    max-width: 75px;
+    max-width: 150px;
     max-height: 50px; 
 }
 .links{
@@ -31,6 +31,25 @@ a{
     list-style-type: none;
     text-decoration: none;
     color: white
+}
+   a:link {
+    color: red;
+  }
+  
+
+  a:visited {
+    color: rgb(9, 0, 128);
+  }
+  
+
+  a:hover {
+    color: hotpink;
+  }
+  
+
+  a:active {
+    color: blue;
+  
 }
 li {
     list-style-type: none;
