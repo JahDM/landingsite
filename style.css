@@ -91,7 +91,7 @@ li {
 .containerright img{
     height: auto;
     width: 300px;
-    border: rgb(128, 129, 0) solid;
+    border: #e5e7eb solid;
 }
 
 .button{
